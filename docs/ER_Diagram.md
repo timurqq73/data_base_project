@@ -211,7 +211,7 @@ erDiagram
     
     deliveries {
         int delivery_id PK
-        int order_id FK UK
+        int order_id FK
         date delivery_date
         date actual_delivery_date
         string tracking_number
